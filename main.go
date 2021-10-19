@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println("Hello Ritik Ramuka!")
+func main(){
+	var a int
+	fmt.Scanln(&a)
+	fmt.Println("hello world")
+	fmt.Println(a)
 }
